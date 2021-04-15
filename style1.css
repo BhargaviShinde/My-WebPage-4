@@ -1,0 +1,165 @@
+h1 {
+    color:white;
+    font-size: 70px;
+    font-family: Brush Script MT;
+    font-weight: 100;
+}
+
+h2{
+    color:rgb(175,238,238);
+    font-size: 35px;
+    font-family: 'Redressed', cursive;
+    font-weight: 90;
+}
+
+h3{
+    color:rgb(175,238,238);
+    font-size: 30px;
+    font-family: Garamond;
+    font-weight: 120;
+}
+
+h4{
+    color:rgb(175,238,238);
+    font-size: 28px;
+    font-family: Garamond;
+    font-weight: 120;
+}
+
+ul {
+    color: #98FB98;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.ab :hover{
+    color: rgb(135, 79, 255);
+    font-size: 28px;
+    opacity: 1;
+}
+
+.cd :hover{
+    color: rgb(135, 79, 255);
+    font-size: 28px;
+    opacity: 1;
+}
+
+.ef :hover{
+    color: rgb(135, 79, 255);
+    font-size: 28px;
+    opacity: 1;
+}
+
+.gh :hover{
+    color: rgb(135, 79, 255);
+    font-size: 28px;
+    opacity: 1;
+}
+
+.ij :hover{
+    color: rgb(135, 79, 255);
+    font-size: 28px;
+    opacity: 1;
+}
+
+.ima{
+    position: relative;
+}
+
+.ima p{
+    font-weight: 1000px;
+    font-size: 27px;
+}
+
+.ima p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Sacramento', cursive;
+    color: black;
+    opacity: 0; 
+}
+
+
+.ima:hover p{
+    opacity: 1;
+}
+
+.ima:hover img{
+    opacity: 0.9;
+}
+
+.links {
+    margin:20px;
+    padding: 5px;
+    font-size: 25px;
+    align-items: center;
+}
+a :link{
+    color:white;
+}
+a :visited{
+    color:purple;
+}
+.links a{
+    margin:20px;
+    padding: 5px;
+    color:white;
+}
+.header {
+    background-image: linear-gradient(to top,rgba(0, 255, 234, 0.5),rgba(0, 255, 119, 0.664),rgba(0, 255, 157, 0.657));
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.games {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.game img {
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+}
+
+.game p {
+    font-family: 'Lucida Handwriting';
+    font-weight: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-image: linear-gradient(to bottom,rgb(7, 206, 196),rgb(135, 79, 255),rgb(233, 119, 253));
+    background-repeat: no-repeat;
+}
+
+.intro {
+    font-size: 23px;
+    font-family: 'Papyrus';
+    font-weight: 350px;
+}
+
+a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Books{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+}

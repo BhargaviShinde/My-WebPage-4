@@ -1,0 +1,84 @@
+h1 {
+    margin-left: 20px;
+    color:white;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.links {
+    margin:20px;
+    padding: 5px;
+    font-size: 25px;
+    align-items: center;
+}
+a :link{
+    color:white;
+}
+a :visited{
+    color:yellow;
+}
+.links a{
+    margin:20px;
+    padding: 5px;
+    color:white;
+}
+.header {
+    background-image: linear-gradient(to top,rgba(0, 255, 234, 0.5),rgba(0, 255, 119, 0.664),rgba(0, 255, 157, 0.657));
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.games {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.game img {
+    width:500px;
+    height:300px;
+}
+
+.game {
+    position: relative;
+}
+
+.game p {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Lucida Handwriting';
+    font-weight: 150px;
+    color: white;
+    opacity: 0;
+}
+
+.game:hover p{
+    opacity:1;
+}
+
+.game:hover img{
+    opacity:0.33;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-image: url('BG.jpg');
+    background-size: cover;
+    /*linear-gradient(to bottom,rgb(0, 128, 128),rgb(81, 0, 255),rgb(217, 0, 255))*/;
+}
+
+.intro {
+    color: snow;
+    font-size: 23px;
+    font-family: 'Papyrus';
+    font-weight: 350px;
+}
+
